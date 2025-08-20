@@ -40,28 +40,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    while True:
-        print("
-        print("1. Display current month's calendar")
-        print("2. Display specific month's calendar")
-        print("3. Exit")
 
-        choice = input("Enter your choice: ")
-
-        if choice == '1':
-            display_current_month_calendar()
-        elif choice == '2':
-            year = input("Enter year: ")
-            month = input("Enter month: ")
-            display_specific_month_calendar(year, month)
-        elif choice == '3':
-            print("Exiting calendar application.")
-            break
-        else:
-            print("Invalid choice. Please try again.")
-
-if __name__ == "__main__":
-    main()
 
 
 
